@@ -86,20 +86,6 @@ function Header() {
                 <span className="no-icon">Profile</span>
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <LinkContainer to="/button">
-              <Button >button</Button>
-              </LinkContainer>
-            </Nav.Item> */}
-            <Nav.Item>
-              <Nav.Link
-                className="m-0"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                <span className="no-icon">Log in</span>
-              </Nav.Link>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

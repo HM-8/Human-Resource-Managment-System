@@ -34,13 +34,6 @@ const dashboardRoutes = [
     component: EmployeeHome,
     layout: "/admin",
   },
-  {
-    path: "/login",
-    name: "Employee DashBoard",
-    icon: "nc-icon nc-chart-pie-35",
-    component: EmployeeHome,
-    layout: "/admin",
-  },
  
 ];
 

@@ -153,8 +153,9 @@ function User() {
                 <img
                   alt="..."
                   src={
-                    require("assets/img/photo-1431578500526-4d9613015464.jpeg")
-                      .default
+                    // "../assets/img/faces/face-0.jpg"
+                    "../assets/img/default-avatar.png"
+                      
                   }
                 ></img>
               </div>
@@ -164,7 +165,7 @@ function User() {
                     <img
                       alt="..."
                       className="avatar border-gray"
-                      src={require("assets/img/faces/face-2.jpg").default}
+                      src={"../assets/img/faces/face-0.jpg"}
                     ></img>
                     <h5 className="title">John Doe</h5>
                   </a>
