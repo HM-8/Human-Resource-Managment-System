@@ -1,4 +1,3 @@
-# components_project
+# HRMS
 
-We can use this as a dashboard and add the componenet's from Ezana's to the pages here
-
+Human Resource Managment System
