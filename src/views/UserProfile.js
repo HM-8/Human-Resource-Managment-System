@@ -29,7 +29,6 @@ function User() {
                       <Form.Group>
                         <label>Company (disabled)</label>
                         <Form.Control
-                          defaultValue="Shikela Inc"
                           disabled
                           placeholder="Company"
                           type="text"
@@ -129,7 +128,6 @@ function User() {
                         <label>Description</label>
                         <Form.Control
                           cols="80"
-                          defaultValue="Admin for Shikela Inc."
                           placeholder="Here can be your description"
                           rows="4"
                           as="textarea"

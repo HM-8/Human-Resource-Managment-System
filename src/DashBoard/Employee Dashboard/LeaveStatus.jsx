@@ -51,7 +51,7 @@ import {
     )
   ];
   
-  const renderTooltip = (props: any) => {
+  const renderTooltip = (props) => {
     const { active, payload } = props;
   
     if (active && payload && payload.length) {
