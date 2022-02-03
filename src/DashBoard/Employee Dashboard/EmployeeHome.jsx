@@ -1,8 +1,8 @@
 import React from "react";
-import WidgetSm from "../admin Dashboard/WidgetSm";
+import WidgetSm from "../Admin Dashboard/WidgetSm";
 import { makeStyles } from "@material-ui/core";
-import DetailInfo from "../admin Dashboard/DetailInfo";
-import WidgetLg from "../admin Dashboard/WidgetLg";
+import DetailInfo from "../Admin Dashboard/DetailInfo";
+import WidgetLg from "../Admin Dashboard/WidgetLg";
 import TaskProgress from "./TaskProgress";
 import LeaveStatus from "./LeaveStatus";
 

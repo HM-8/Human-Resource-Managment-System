@@ -1,11 +1,11 @@
 import React from "react";
-import Chart from "../DashBoard/admin Dashboard/charts";
-import FeaturedInfo from "../DashBoard/admin Dashboard/featuredInfo";
-import { userData } from "../DashBoard/admin Dashboard/demmyData";
-import WidgetSm from "../DashBoard/admin Dashboard/WidgetSm";
+import Chart from "../DashBoard/Admin Dashboard/Charts";
+import FeaturedInfo from "../DashBoard/Admin Dashboard/FeaturedInfo";
+import { userData } from "../DashBoard/Admin Dashboard/demmyData";
+import WidgetSm from "../DashBoard/Admin Dashboard/WidgetSm";
 import { makeStyles } from "@material-ui/core";
-import DetailInfo from "../DashBoard/admin Dashboard/DetailInfo";
-import WidgetLg from "../DashBoard/admin Dashboard/WidgetLg";
+import DetailInfo from "../DashBoard/Admin Dashboard/DetailInfo";
+import WidgetLg from "../DashBoard/Admin Dashboard/WidgetLg";
 
 const useStyles = makeStyles((theme) => ({
   home: {

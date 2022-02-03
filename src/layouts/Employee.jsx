@@ -5,7 +5,7 @@ import { useLocation, Route, Switch } from "react-router-dom";
 import AdminNavbar from "components/Navbars/Navbar";
 import Footer from "components/Footer/Footer";
 import Sidebar from "components/Sidebar/Sidebar";
-import routes from "../routes/adminRoutes";
+import routes from "../routes/employeeRoutes";
 import sidebarImage from "assets/img/sidebar-2.jpg";
 
 function Admin() {
@@ -17,7 +17,7 @@ function Admin() {
 
   const getRoutes = (routes) => {
     return routes.map((prop, key) => {
-      if (prop.layout === "/admin") {
+      if (prop.layout === "/employee") {
         return (
           <Route
             path={prop.layout + prop.path}

@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { useLocation } from "react-router-dom";
 import { Navbar, Container, Nav, Dropdown, Button } from "react-bootstrap";
-import routes from "routes.js";
+import routes from "../../routes/adminRoutes";
 import { LinkContainer } from 'react-router-bootstrap'
 
 function Header() {
@@ -25,19 +25,12 @@ function Header() {
         return routes[i].name;
       }
     }
-    return "Brand";
+    return "Title";
   };
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container fluid>
-        <div className="d-flex justify-content-center align-items-center ml-2 ml-lg-0">
-          <Button
-            variant="dark"
-            className="d-lg-none btn-fill d-flex justify-content-center align-items-center rounded-circle p-2"
-            onClick={mobileSidebarToggle}
-          >
-            <i className="fas fa-ellipsis-v"></i>
-          </Button>
+        <div className="d-flex justify-content-center align-items-center">
           <Navbar.Brand
             href="#home"
             onClick={(e) => e.preventDefault()}

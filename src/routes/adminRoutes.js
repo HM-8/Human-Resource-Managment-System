@@ -1,11 +1,11 @@
  
-import UserProfile from "views/UserProfile";
-import TableList from "views/TableList";
-import Home from "views/Home";
-import EmployeeHome from "DashBoard/Employee Dashboard/EmployeeHome";
+import UserProfile from "../views/UserProfile";
+import TableList from "../views/TableList";
+import Home from "../views/Home";
+import EmployeeHome from "../DashBoard/Employee Dashboard/EmployeeHome";
 
 
-const dashboardRoutes = [
+const adminRoutes = [
   {
     path: "/user",
     name: "Add New Admin",
@@ -37,4 +37,4 @@ const dashboardRoutes = [
  
 ];
 
-export default dashboardRoutes;
+export default adminRoutes;
