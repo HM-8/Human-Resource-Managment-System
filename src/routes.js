@@ -1,6 +1,6 @@
  
-import UserProfile from "views/UserProfile.js";
-import TableList from "views/TableList.js";
+import UserProfile from "views/UserProfile";
+import TableList from "views/TableList";
 import Home from "views/Home";
 import EmployeeHome from "DashBoard/Employee Dashboard/EmployeeHome";
 
